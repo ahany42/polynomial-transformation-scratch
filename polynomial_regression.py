@@ -62,7 +62,7 @@ def poly_transform(X, degree):
     return np.hstack(result)
 
 def poly_plot():
-    degrees = range(1, 30)
+    degrees = range(1, 35)
     mse_train_values = []
     mse_test_values = []
 
